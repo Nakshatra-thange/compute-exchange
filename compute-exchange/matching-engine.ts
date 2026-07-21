@@ -25,7 +25,7 @@ export interface Match {
   timestamp: number;
 }
 
-interface BookEntry extends Order {
+export interface BookEntry extends Order {
   remaining: number;
 }
 
